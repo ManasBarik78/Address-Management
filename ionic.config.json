@@ -1,0 +1,7 @@
+{
+  "name": "MapIntegration",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
