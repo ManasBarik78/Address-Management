@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HintsPageRoutingModule } from './hints-routing.module';
+import { AddresspopupPageRoutingModule } from './addresspopup-routing.module';
 
-import { HintsPage } from './hints.page';
+import { AddresspopupPage } from './addresspopup.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HintsPageRoutingModule
+    AddresspopupPageRoutingModule
   ],
-  declarations: [HintsPage]
+  declarations: [AddresspopupPage]
 })
-export class HintsPageModule {}
+export class AddresspopupPageModule {}

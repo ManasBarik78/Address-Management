@@ -12,8 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'hints',
-    loadChildren: () => import('./hints/hints.module').then( m => m.HintsPageModule)
+    path: 'addresspopup',
+    loadChildren: () => import('./addresspopup/addresspopup.module').then( m => m.AddresspopupPageModule)
   },
 ];
 
