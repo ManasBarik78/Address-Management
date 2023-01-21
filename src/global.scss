@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.modal-page-design{
+    --width: 400px;
+    --height: 230px;
+    --min-width: 280px;
+    --max-width: 320px;
+    --min-height: auto;
+    --max-height: 90%;
+    --overflow: auto;
+    --border-radius: 4px;
+    --box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    .modal-wrapper {
+      margin: 12px;
+    }
+  }
